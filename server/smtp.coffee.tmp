@@ -1,0 +1,7 @@
+Meteor.startup ( ->
+  Meteor.Mailgun.config(
+    username: Meteor.settings.private.mailgun_un
+    password: Meteor.settings.private.mailgun_pw
+  )
+)
+
