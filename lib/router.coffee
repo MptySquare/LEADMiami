@@ -9,6 +9,11 @@ Router.configure(
   layoutTemplate: 'appBody'
 )
 
+# Blog
+Blog.config(
+  blogIndexTemplate: 'blogList'
+)
+
 # Accounts
 AccountsTemplates.configure(
   defaultLayout: 'atFormLayout'

@@ -1,0 +1,11 @@
+h1 Welcome to my Blog
+//+blogIndex
+ul
+  if blogReady
+    each posts
+      li
+        h2 #{title}
+        p Published on #{publishedAt}
+        p Excerpt: #{excerpt}
+  else
+    li Loading...
