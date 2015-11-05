@@ -1,0 +1,78 @@
+nav.white(role="navigation")
+  .nav-wrapper.container
+    a#logo-container.brand-logo(href="http://leadmiami.co")
+      img(src="/branding/LEAD isotype.png")
+  
+    // Social nav
+    ul.nav-menu.right.hide-on-med-and-down.grey-text.text-darken-3#social-media-nav
+      li
+        a(href="https://www.facebook.com/LEADmiami" target="_blank")
+          i.fa.fa-facebook
+      li
+        a(href="https://twitter.com/leadmiami" target="_blank")
+          i.fa.fa-twitter
+      li
+        a(href="https://instagram.com/leadmiami/" target="_blank")
+          i.fa.fa-instagram
+
+    // Page nav
+    ul.nav-menu.right.hide-on-med-and-down.grey-text.text-darken-3
+      li
+        a(href="http://about.leadmiami.co") About
+      // Dropdown Trigger
+      li
+        a.dropdown-button(href='#' data-activates='dropdown1') Events
+
+    // Dropdown Structure
+    ul#dropdown1.dropdown-content
+      li
+        a(href="http://leadmiami.co/tag/event") All
+      li
+        a(href="http://leadmiami.co/tag/past-event") Past
+      li.divider
+      li
+        a(href="http://leadmiami.co/tag/upcoming-event") Upcoming
+
+
+    // Mobile Nav
+    ul#nav-mobile.side-nav.center.section
+      li
+        a(href="http://about.leadmiami.co") About
+      li
+        a(href="http://leadmiami.co/tag/event") Events
+      li
+        a(href="https://www.facebook.com/LEADmiami" target="_blank")
+          i.fa.fa-facebook
+      li
+        a(href="https://twitter.com/leadmiami" target="_blank")
+          i.fa.fa-twitter
+      li
+        a(href="https://instagram.com/leadmiami/" target="_blank")
+          i.fa.fa-instagram
+
+    a#mobile-nav-button.button-collapse.right.grey-text.text-darken-3(href="#" data-activates="nav-mobile")
+      i.material-icons menu
+
+
++yield
+
+nav.teal
+    #footer-nav.nav-wrapper.container.white-text
+      // Hide page nav
+       ul>
+        <li><a href="#">Events</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="http://blog.leadprojects.org">Blog</a></li>
+    ul.right.section
+      li
+        a(href="https://www.facebook.com/LEADmiami")
+          i.fa.fa-facebook
+      li
+        a(href="https://twitter.com/leadmiami")
+          i.fa.fa-twitter
+      li
+        a(href="https://instagram.com/leadmiami/")
+          i.fa.fa-instagram
+footer.page-footer.teal
+    .footer-copyright
+      .container  Copyright LEAD Miami &copy; All rights reserved
