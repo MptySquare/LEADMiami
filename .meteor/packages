@@ -14,10 +14,8 @@ fourseven:scss
 wolves:bourbon
 aldeed:collection2
 aldeed:simple-schema
-poetic:materialize-scss
-xolvio:md-blog
-useraccounts:materialize
 accounts-password
 coffeescript
 useraccounts:iron-routing
 mquandalle:jade
+materialize:materialize@=0.97.0

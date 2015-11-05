@@ -98,3 +98,9 @@ footer.page-footer {
 .footer-copyright {
   width: 100%;
 }
+
+/* blog stuff */
+#mdblog-new {
+  color: white;
+  float: right;
+}
